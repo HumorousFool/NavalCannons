@@ -1,0 +1,10 @@
+name: NavalCannons
+version: 1.0
+description: A naval cannons plugin.
+prefix: NavalCannons
+author: HumorousFool
+website: https://humorousfool.github.io
+
+main: io.github.humorousfool.navalcannons.NavalCannons
+softdepend: [Movecraft, WorldGuard]
+api-version: 1.12

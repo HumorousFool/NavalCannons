@@ -1,0 +1,54 @@
+Locale: en
+
+CraftCannonsOnly: false
+
+CannonMaxPower: 3
+CannonMaxLength: 3
+CannonBackBlockType: DARK_OAK_STAIRS
+CannonBackBlockData: -1
+CannonMainBlockType: WOOL
+CannonMainBlockData: 15
+
+CannonProjectileTimeLimit: 5000
+CannonVelocityMultiplier: 3
+CannonProjectileGravity: 2
+CannonIgnoreDistance: 3
+CannonPenetrationModifier: 1
+CannonFuse: 10
+CannonReloadTime: 20000
+CannonReloadShorten: 10000
+
+CannonCraftPauseTime: 2000
+CannonDamage: 20
+
+MinBlocksPerCannon:
+  Ship: 50
+  MediumShip: 100
+  BigShip: 88
+
+MinBlocksPerPower:
+  Ship: 50
+  MediumShip: 66
+  BigShip: 66
+
+MaxCannons:
+  Ship: 40
+  BigShip: 170
+
+FireAllSign: true
+FireAllCraftTypes:
+  - Ship
+  - MediumShip
+  - BigShip
+  - Submarine
+
+DirectorTool: STICK
+DirectionRadiusPitch: 0.4
+DirectionRadiusYaw: 0.4
+DirectingCraftTypes:
+  - Ship
+  - MediumShip
+  - BigShip
+
+PreventShipIgnite: true
+MaxUpdatesPerTick: 1000
